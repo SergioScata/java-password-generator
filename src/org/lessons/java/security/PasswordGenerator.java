@@ -23,5 +23,7 @@ public class PasswordGenerator {
 
         System.out.println("La tua nuova password è: " + usersname + "-" + userssurname + "-" + userscolor + "-" + birthdatessum);
 
+
+        scan.close();
     }
 }
